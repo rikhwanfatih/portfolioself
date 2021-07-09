@@ -147,7 +147,7 @@ export default (() => {
 					text-decoration-line="initial"
 					font="normal 400 16px/1.5 --fontFamily-googlePoppins"
 					flex-direction="row"
-					href="https://quarkly.io/project/60e48e3b76068b001759f325/page/60e4930ab42a9a0018930a74"
+					href="about"
 				>
 					view
 				</Link>
