@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Span, Box, Section } from "@quarkly/widgets";
+import { Theme, Link, Text, Box, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -67,37 +67,17 @@ export default (() => {
 					xxl-transform="matrix3d(1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1)"
 				/>
 				<Box myDekstop-width="560px" myDekstop-height="auto" width="560px" height="auto">
-					<Text
-						xxl-color="#ffffff"
-						xxl-font="45px stretch pro"
-						xxl-transition="--transition05"
-						xxl-transform="matrix3d(1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1)"
-						myDekstop-color="#ffffff"
-						myDekstop-font="800 35px --fontFamily-googleSyne"
-						myDekstop-transition="--transition05"
-						myDekstop-transform="matrix3d(1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1)"
-					>
+					<Text myDekstop-color="#ffffff" myDekstop-font="800 35px --fontFamily-googleSyne">
 						Hardware
 						<br />
 						<br />
-						<Span
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-						>
-							<Span xxl-font="45px poppins" myDekstop-font="700 35px --fontFamily-googleSyne">
-								⊗ Asus X441B
-								<br />
-								⊗ Xiaomi note 4
-								<br />
-								⊗ Huion h430p
-								<br />
-								⊗ Logitech
-							</Span>
-						</Span>
+						⊗ Asus X441B
+						<br />
+						⊗ Xiaomi note 4
+						<br />
+						⊗ Huion h430p
+						<br />
+						⊗ Logitech{"\n\n"}
 					</Text>
 				</Box>
 				<Box
@@ -108,47 +88,27 @@ export default (() => {
 					xxl-margin="0px 0px 0px 250px"
 					myDekstop-margin="0px 0px 0px 49px"
 				>
-					<Text
-						xxl-color="#ffffff"
-						xxl-font="28px stretch pro"
-						xxl-transition="--transition05"
-						xxl-transform="matrix3d(1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1)"
-						myDekstop-color="#ffffff"
-						myDekstop-font="800 24px --fontFamily-googleSyne"
-						myDekstop-transition="--transition05"
-						myDekstop-transform="matrix3d(1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1)"
-					>
+					<Text myDekstop-color="#ffffff" myDekstop-font="800 20px --fontFamily-googleSyne">
 						Software Dekstop
 						<br />
 						<br />
-						<Span
-							xxl-font="28px poppins"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-							myDekstop-font="700 24px --fontFamily-googleSyne"
-						>
-							⊗ Adobe family
-							<br />
-							⊗ Figma
-							<br />
-							⊗ Quarkly - web dev
-							<br />
-							⊗ Cinema 4d
-							<br />
-							⊗ Spline 3d
-							<br />
-							⊗ Fontlab
-							<br />
-							⊗ Affinity Designer
-						</Span>
+						⊗ Adobe family
+						<br />
+						⊗ Figma
+						<br />
+						⊗ Quarkly - web dev
+						<br />
+						⊗ Cinema 4d
+						<br />
+						⊗ Spline 3d
+						<br />
+						⊗ Fontlab
+						<br />
+						⊗ Affinity Designer{"\n\n"}
 					</Text>
 				</Box>
 			</Section>
-			<Section myDekstop-display="grid" xxl-transition="--transition05" xxl-transform="matrix3d(1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1)">
+			<Section myDekstop-display="grid" xxl-transition="--transition05" xxl-transform="matrix3d(1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1)" myDekstop-margin="20px 0 0 0">
 				<Override
 					slot="SectionContent"
 					myDekstop-width="1212.3px"
@@ -164,50 +124,21 @@ export default (() => {
 					height="auto"
 					myDekstop-margin="0px 0px 0px 100px"
 				>
-					<Text
-						xxl-color="#ffffff"
-						xxl-font="24px stretch pro"
-						xxl-transition="--transition05"
-						xxl-transform="matrix3d(1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1)"
-						myDekstop-color="#ffffff"
-						myDekstop-font="800 20px --fontFamily-googleSyne"
-						myDekstop-transition="--transition05"
-						myDekstop-transform="matrix3d(1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1)"
-					>
+					<Text myDekstop-color="#ffffff" myDekstop-font="800 20px --fontFamily-googleSyne">
 						Website i use usually
 						<br />
 						<br />
-						<Span
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-						>
-							<Span
-								xxl-font="24px poppins"
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-								myDekstop-font="20px poppins"
-							>
-								⊗ Product Hunt
-								<br />
-								⊗ Dopely Colors
-								<br />
-								⊗ Awwwards
-								<br />
-								⊗ Product design resources
-								<br />
-								⊗ Rive
-								<br />
-								⊗ Lottie animation
-							</Span>
-						</Span>
+						⊗ Product Hunt
+						<br />
+						⊗ Dopely Colors
+						<br />
+						⊗ Awwwards
+						<br />
+						⊗ Product design resources
+						<br />
+						⊗ Rive
+						<br />
+						⊗ Lottie animation{"\n\n"}
 					</Text>
 				</Box>
 				<Box
@@ -218,39 +149,19 @@ export default (() => {
 					xxl-margin="0px 0px 0px 250px"
 					myDekstop-margin="0px 0px 0px 200px"
 				>
-					<Text
-						xxl-color="#ffffff"
-						xxl-font="35px stretch pro"
-						xxl-transition="--transition05"
-						xxl-transform="matrix3d(1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1)"
-						myDekstop-color="#ffffff"
-						myDekstop-font="800 35px --fontFamily-googleSyne"
-						myDekstop-transition="--transition05"
-						myDekstop-transform="matrix3d(1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1)"
-					>
+					<Text myDekstop-color="#ffffff" myDekstop-font="800 30px --fontFamily-googleSyne">
 						Software Mobile
 						<br />
 						<br />
-						<Span
-							xxl-font="35px poppins"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-							myDekstop-font="700 35px --fontFamily-googleSyne"
-						>
-							⊗ Adobe Spark post
-							<br />
-							⊗ Slack
-							<br />
-							⊗ Alight Motion
-							<br />
-							⊗ Chrome
-							<br />
-							⊗ Lottie
-						</Span>
+						⊗ Adobe Spark
+						<br />
+						⊗ Slack
+						<br />
+						⊗ Alight Motion
+						<br />
+						⊗ Chrome
+						<br />
+						⊗ Lottie{"\n\n"}
 					</Text>
 				</Box>
 			</Section>
