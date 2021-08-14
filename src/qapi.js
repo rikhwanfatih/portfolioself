@@ -51,7 +51,7 @@ export default {
 	"site": {
 		"styles": {
 			"height": "",
-			"cursor": "crosshair",
+			"cursor": "url(circle.png), auto",
 			"opacity": "",
 			"box-shadow": "",
 			"border-style": "",
